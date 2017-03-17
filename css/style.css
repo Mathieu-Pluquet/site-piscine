@@ -4,32 +4,118 @@
   padding: 0;
 }
 
+body {
+  display: table;
 
+}
+
+html, body {
+  height: 100%;
+}
+/*page accueil*/
 
 header {
 height: 10em;
-background-color: red;
 width: 100%;
 }
 
 header img {
   height: 10em;
 }
-
+aside {
+  width: 25%;
+}
 header aside, header section {
   display: inline-block;
   vertical-align: middle;
 
 }
 
-h1 {
+header section h1{
   width: 30%;
   margin: auto;
 
 }
 
 .t1 {
-  width: 70%;
+  width: 60%;
   margin: auto;
   margin-left: 5em;
+
+}
+
+/*navbarre*/
+.navhead {
+  height: 10em;
+}
+
+.li1{
+  display: inline-block;
+  vertical-align: middle;
+  width: 20%;
+  margin-top: 5em;
+  margin-left: 3em;
+}
+
+.art1 {
+  display: inline-block;
+  background-color: red;
+  width: 30%;
+  margin-top: 2em;
+  margin-left: 2em;
+  height: 20em;
+  vertical-align: middle;
+
+
+}
+
+.sec1 {
+  height: 50em;
+  width: 100%;
+
+}
+
+
+.art1 img {
+  margin-left: 2em;
+  margin-top: 2em;
+  height: 10em;
+}
+
+.art1 section {
+  width: 80%;
+  margin: auto;
+  background-color: green;
+
+}
+
+p {
+  background-color: blue;
+
+
+  }
+
+  .mySlides {
+    width: 80%;
+    height: 20em;
+    margin: auto;
+  }
+
+footer {
+  display: table-row;
+  height: 5em;
+  width: 100%;
+  background-color: yellow;
+}
+
+.li2 {
+  display: inline-block;
+  width: 20%;
+
+}
+
+footer ul {
+  width: 80%;
+  margin: auto;
+  margin-top: 2em;
 }

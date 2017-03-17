@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
       <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="icone/css/font-awesome.min.css">
     <title>Accueil</title>
   </head>
   <body>
@@ -10,18 +11,55 @@
       <header>
         <aside class="">
           <figure>
-              <img src="https://pbs.twimg.com/media/BRkLbuhCUAArlnf.jpg" alt="">
+              <img src="http://www.a-leau.fr/s/misc/logo.png?t=1484216785" alt="">
           </figure>
             </aside>
           <section class="t1">
             <h1>Piscine de canards</h1>
           </section>
-      </header>
-    <!-- end of header -->
+        </header>
+        <!-- end of header -->
 
-    <!-- start of slider -->
+        <!-- start of menu -->
+        <nav class="navhead">
+          <ul>
+            <li class="li1">Accueil</li>
+            <li class="li1"><i class="fa fa-usd fa-2x"aria-hidden="true"></i>Tarifs</li>
+            <li class="li1">Contact</li>
+            <li class="li1">Décoration</li>
+          </ul>
+        </nav>
 
-    <!-- end of slider -->
+        <!-- end of menu -->
+        <!-- start of slider -->
+        <img class="mySlides" src="https://www.diffazur.fr/wp-content/uploads/2016/02/piscine-classique-1280x440.jpg">
+
+        <img class="mySlides" src="https://www.diffazur.fr/wp-content/uploads/2016/06/r%C3%A9compenses-532-960x640.jpg">
+
+
+        <!-- end of slader -->
+        <!-- start of section -->
+          <section  class="sec1">
+            <article class="art1">
+              <section>
+                <img src="https://www.diffazur.fr/wp-content/uploads/2015/09/environnement-360x270.jpg" alt="">
+                <p>ijdizijdijjjdjd jdjdjjdjdj djdjdjdjdjdjdjjdjdjjdj djdjdjjdjdjdjdjdjkkdskkskd djsjdjsjkdjjs dkskdk jdjdjjdjd jdjdjdjdjjdjdjds</p>
+              </section>
+            </article>
+            <article class="art1">
+              <section>
+                <img src="https://www.diffazur.fr/wp-content/uploads/2016/06/piscine-interieure-1-480x320.jpg" alt="">
+              </section>
+            </article>
+            <article class="art1">
+              <section>
+                <img src="https://www.diffazur.fr/wp-content/uploads/2016/06/piscine-diffazur-33-480x320.jpg" alt="">
+                  <p>Avec Diffazur, profitez de votre piscine intérieure toute l’année, été comme hiver. En choisissant une piscine intérieure, vous vous réservez le luxe d’une piscine dont vous pourrez profiter toute l’année sans condition ! Réservée aux véritables amateurs de piscines et de détente, la piscine intérieure devient une nouvelle pièce à vivre de votre maison.</p>
+              </section>
+            </article>
+          </section>
+          <!-- end of section -->
+
 
     <!-- start of section -->
       <section>
@@ -31,8 +69,35 @@
 
     <!-- start of footer -->
       <footer>
+        <nav>
+          <ul>
+            <li class="li2">salut</li>
+            <li class="li2">jasijiaj</li>
+            <li class="li2">uhuhuhuhiu</li>
+            <li class="li2">dznjddj</li>
+          </ul>
+        </nav>
       </footer>
     <!-- end of footer -->
 
+    <!-- start of slider -->
+    <script type="text/javascript">
+    var slideIndex = 0;
+    carousel();
+
+    function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > x.length) {slideIndex = 1}
+        x[slideIndex-1].style.display = "block";
+        setTimeout(carousel, 2000); // Change image every 2 seconds
+
+}
+    </script>
+    <!-- end of slider -->
   </body>
 </html>
