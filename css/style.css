@@ -1,0 +1,35 @@
+/*reset css*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+header {
+height: 10em;
+background-color: red;
+width: 100%;
+}
+
+header img {
+  height: 10em;
+}
+
+header aside, header section {
+  display: inline-block;
+  vertical-align: middle;
+
+}
+
+h1 {
+  width: 30%;
+  margin: auto;
+
+}
+
+.t1 {
+  width: 70%;
+  margin: auto;
+  margin-left: 5em;
+}
