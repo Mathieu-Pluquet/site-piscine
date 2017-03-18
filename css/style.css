@@ -6,6 +6,8 @@
 
 body {
   display: table;
+  background-color: black;
+  color:white;
 
 }
 
@@ -32,8 +34,11 @@ header aside, header section {
 }
 
 header section h1{
-  width: 30%;
+  width: 50%;
   margin: auto;
+  font-family: 'Chivo', sans-serif;
+  font-size: 2em;
+  color:#0131B4	;
 
 }
 
@@ -52,48 +57,58 @@ header section h1{
 .li1{
   display: inline-block;
   vertical-align: middle;
-  width: 20%;
+  width: 10%;
   margin-top: 5em;
-  margin-left: 3em;
+  margin-left: 10em;
 }
 
 .art1 {
   display: inline-block;
-  background-color: red;
   width: 30%;
   margin-top: 2em;
   margin-left: 2em;
-  height: 20em;
+  height: 30em;
   vertical-align: middle;
 
 
 }
 
 .sec1 {
-  height: 50em;
+  height: 60em;
   width: 100%;
+  margin-top: 15em;
 
 }
 
 
 .art1 img {
-  margin-left: 2em;
-  margin-top: 2em;
-  height: 10em;
+  height: 12em;
+  width: 100%;
 }
 
 .art1 section {
   width: 80%;
   margin: auto;
-  background-color: green;
+  border: 5px solid white;
+  vertical-align: middle;
+  text-align: center;
+  height: 30em;
 
 }
 
-p {
-  background-color: blue;
-
-
+.sec1 p {
+  margin-top: 2em;
+  color:#87CEFA
   }
+
+p {
+  margin-top: 2em;
+}
+.intro {
+  margin: auto;
+  width: 80%
+
+}
 
   .mySlides {
     width: 80%;
@@ -101,21 +116,29 @@ p {
     margin: auto;
   }
 
+
+/*footer*/
 footer {
   display: table-row;
-  height: 5em;
+  height: 2em;
   width: 100%;
-  background-color: yellow;
-}
-
-.li2 {
-  display: inline-block;
-  width: 20%;
-
+  background-color:#0131B4;
 }
 
 footer ul {
-  width: 80%;
-  margin: auto;
+  text-align:right;
   margin-top: 2em;
+  width 80%
+  margin: auto;
+}
+
+footer img {
+  height: 2.5em;
+  width: 7em;
+}
+
+footer li {
+  display: inline-block;
+  width: 12%;
+  margin: auto;
 }
