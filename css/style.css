@@ -215,3 +215,34 @@ label {
 iframe {
   margin-left: 20em;
 }
+
+
+/*page décoration*/
+
+.sec3 {
+  height: 50em;
+}
+
+.art2 {
+  height: 40em;
+  width: 20em;
+  margin-top: 10em;
+  margin-left: 5em;
+}
+
+.art2, .art3 {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#photo {
+  height: 25em;
+  width: 40em;
+  margin-left: 5em;
+}
+
+.art3 {
+  height: 20em;
+  width: 10em;
+  margin-bottom: 8em;
+}
