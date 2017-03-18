@@ -149,3 +149,33 @@ footer li {
   width: 12%;
   margin: auto;
 }
+
+
+/*page tarif*/
+
+table {
+  border-collapse: collapse;
+  margin-left: 1em;
+}
+
+td {
+  border: 1px solid white;
+}
+
+.tab1 {
+  height: 70em;
+  width: 100%;
+
+}
+
+
+.tab1 img {
+  height: 20em;
+  width: 30em;
+  margin-left: 3em;
+}
+
+.tab1 img, table {
+  display: inline-block;
+  vertical-align: middle;
+}
