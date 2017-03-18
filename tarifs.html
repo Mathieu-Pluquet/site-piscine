@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="icone/css/font-awesome.min.css">
+      <link href="https://fonts.googleapis.com/css?family=Chivo" rel="stylesheet">
+
+    <title>Accueil</title>
+  </head>
+  <body>
+    <!-- start of header -->
+      <header>
+        <aside class="">
+          <figure>
+              <img src="http://www.a-leau.fr/s/misc/logo.png?t=1484216785" alt="">
+          </figure>
+            </aside>
+          <section class="t1">
+            <h1>La piscine de vos reves</h1>
+          </section>
+        </header>
+        <!-- end of header -->
+
+        <!-- start of menu -->
+        <nav class="navhead">
+          <ul>
+            <li class="li1"><a href="index.html">Accueil</a></li>
+            <li class="li1"><a href="tarifs.html">Tarifs</a></li>
+            <li class="li1"><a href="contact.html">Contact</a></li>
+            <li class="li1"><a href="deco.html">Décoration</a></li>
+          </ul>
+        </nav>
+
+        <!-- end of menu -->
+        <!-- start of slider -->
+        <img class="mySlides" src="https://www.diffazur.fr/wp-content/uploads/2016/02/piscine-classique-1280x440.jpg">
+        <!-- end of slader -->
+
+          <!-- end of section -->
+
+
+    <!-- start of section -->
+      <section>
+
+      </section>
+    <!-- end of section -->
+
+    <!-- start of footer -->
+      <footer>
+        <nav>
+          <ul>
+            <li class="foot">actualité</li>
+            <li class="foot">Lexique</li>
+            <li class="foot">FAQ</li>
+            <li class="foot">Mentions légales</li>
+            <li class="li2"><i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i></li>
+            <li class="li2"><i class="fa fa-facebook-official fa-3x" aria-hidden="true"></i></li>
+            <li class="li2"><i class="fa fa-instagram fa-3x" aria-hidden="true"></i></li>
+            <li class="li2"><img src="http://fastgom.com/media/wysiwyg/visuel_CB.png" alt=""></li>
+          </ul>
+        </nav>
+      </footer>
+    <!-- end of footer -->
+
+    <!-- start of slider -->
+    <script type="text/javascript">
+    var slideIndex = 0;
+    carousel();
+
+    function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > x.length) {slideIndex = 1}
+        x[slideIndex-1].style.display = "block";
+        setTimeout(carousel, 2000); // Change image every 2 seconds
+
+}
+    </script>
+    <!-- end of slider -->
+  </body>
+</html>
